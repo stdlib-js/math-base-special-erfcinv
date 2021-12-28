@@ -104,16 +104,14 @@ var y = erfcinv( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var linspace = require( '@stdlib/array-linspace' );
+var linspace = require( '@stdlib/array-base-linspace' );
 var erfcinv = require( '@stdlib/math-base-special-erfcinv' );
 
 var x = linspace( 0.0, 2.0, 100 );
-var y;
-var i;
 
+var i;
 for ( i = 0; i < x.length; i++ ) {
-    y = erfcinv( x[ i ] );
-    console.log( 'x: %d, erfcinv(x): %d', x[ i ], y );
+    console.log( 'x: %d, erfcinv(x): %d', x[ i ], erfcinv( x[ i ] ) );
 }
 ```
 
@@ -207,8 +205,6 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
 
 [@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
-
-[@stdlib/math/base/special/erfinv]: https://github.com/stdlib-js/math-base-special-erfinv
 
 <!-- </related-links> -->
 
