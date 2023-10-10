@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-erfcinv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Inverse complementary error function.",
   "license": "Apache-2.0 AND BSL-1.0",
   "author": {
@@ -43,9 +43,9 @@
     "@stdlib/constants-float64-ninf": "^0.1.1",
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
-    "@stdlib/math-base-napi-unary": "^0.1.0",
-    "@stdlib/math-base-special-ln": "^0.1.0",
-    "@stdlib/math-base-special-sqrt": "^0.1.0",
+    "@stdlib/math-base-napi-unary": "^0.1.1",
+    "@stdlib/math-base-special-ln": "^0.1.1",
+    "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/utils-library-manifest": "^0.1.1"
   },
   "devDependencies": {
