@@ -65,7 +65,7 @@ where `erf^{-1}(z)` is the [inverse error function][@stdlib/math/base/special/er
 ## Usage
 
 ```javascript
-import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@esm/index.mjs';
+import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.1.1-esm/index.mjs';
 ```
 
 #### erfcinv( x )
@@ -117,7 +117,7 @@ var y = erfcinv( NaN );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@esm/index.mjs';
+import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.1.1-esm/index.mjs';
 
 var x = linspace( 0.0, 2.0, 100 );
 
