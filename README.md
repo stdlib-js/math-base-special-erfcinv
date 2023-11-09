@@ -241,6 +241,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/math-base/special/erf`][@stdlib/math/base/special/erf]</span><span class="delimiter">: </span><span class="description">error function.</span>
 -   <span class="package-name">[`@stdlib/math-base/special/erfc`][@stdlib/math/base/special/erfc]</span><span class="delimiter">: </span><span class="description">complementary error function.</span>
 -   <span class="package-name">[`@stdlib/math-base/special/erfinv`][@stdlib/math/base/special/erfinv]</span><span class="delimiter">: </span><span class="description">inverse error function.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/erfcx`][@stdlib/math/base/special/erfcx]</span><span class="delimiter">: </span><span class="description">scaled complementary error function.</span>
 
 </section>
 
@@ -317,6 +318,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/erf]: https://github.com/stdlib-js/math-base-special-erf
 
 [@stdlib/math/base/special/erfc]: https://github.com/stdlib-js/math-base-special-erfc
+
+[@stdlib/math/base/special/erfcx]: https://github.com/stdlib-js/math-base-special-erfcx
 
 <!-- </related-links> -->
 
