@@ -67,6 +67,11 @@ where `erf^{-1}(z)` is the [inverse error function][@stdlib/math/base/special/er
 To use in Observable,
 
 ```javascript
+erfcinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-erfcinv/tags). For example,
+
+```javascript
 erfcinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.2-umd/browser.js' )
 ```
 
@@ -79,7 +84,7 @@ var erfcinv = require( 'path/to/vendor/umd/math-base-special-erfcinv/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -139,7 +144,7 @@ var y = erfcinv( NaN );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
