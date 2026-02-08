@@ -65,7 +65,7 @@ where `erf^{-1}(z)` is the [inverse error function][@stdlib/math/base/special/er
 ## Usage
 
 ```javascript
-import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@deno/mod.js';
+import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.4-deno/mod.js';
 ```
 
 #### erfcinv( x )
@@ -113,7 +113,7 @@ var y = erfcinv( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@deno/mod.js';
+import erfcinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.4-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
