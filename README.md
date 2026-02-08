@@ -67,7 +67,7 @@ where `erf^{-1}(z)` is the [inverse error function][@stdlib/math/base/special/er
 To use in Observable,
 
 ```javascript
-erfcinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@umd/browser.js' )
+erfcinv = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.4-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -79,7 +79,7 @@ var erfcinv = require( 'path/to/vendor/umd/math-base-special-erfcinv/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.4-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -140,7 +140,7 @@ var y = erfcinv( NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-erfcinv@v0.2.4-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
